@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  margin: 20px;
+  width: 350px;
+  height: 65%;
+  border-style: double;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(193, 211, 243);
+  box-shadow: 5px 7px 10px black;
+}
+h1 {
+  background-color: rgb(2, 2, 85);
+  padding: 35px;
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  box-shadow: 0px 7px 10px grey;
+  font-family: Verdana, sans-serif;
+}
+input {
+  border: none;
+  width: 200px;
+  text-decoration: underline;
+  padding: 5px;
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 5px 10px grey;
+}
+.add {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  margin-left: 15px;
+  box-shadow: 2px 2px 5px black;
+}
+.add:hover {
+  background-color: green;
+  color: white;
+}
+h2 {
+  font-size: 23px;
+  font-family: Verdana, sans-serif;
+  font-weight: 500;
+  margin: 35px;
+}
+form {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+#del {
+  border-radius: 15px;
+  height: 25px;
+  width: 35px;
+  font-size: small;
+  background: black;
+  color: white;
+  float: right;
+  margin-left: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+#del:hover {
+  background-color: rgb(197, 60, 60);
+  color: white;
+}
+.success {
+  background-color: rgb(75, 224, 75);
+  color: white;
+  font-size: 20px;
+  border-style: double;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-family: sans-serif;
+}
+.danger {
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  border-style: double;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-family: sans-serif;
+}
+.clear {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  box-shadow: 2px 2px 5px black;
+}
+.clear:hover {
+  background-color: rgb(216, 41, 41);
+  color: white;
+}
+#fa {
+  margin-right: 10px;
+  font-size: 17px;
+}
+.Modal {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 30%;
+  background: white;
+  color: black;
+  padding-left: 35px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-left: 70px;
+  box-shadow: 0px 5px 10px grey;
+}
+#yes {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 35px;
+  padding: 7px;
+  background-color: red;
+  color: white;
+  box-shadow: 2px 2px 5px black;
+}
+#no {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 35px;
+  padding: 7px;
+  padding-right: 10px;
+  background-color: green;
+  color: white;
+  box-shadow: 2px 2px 5px black;
+}
+#x {
+  float: right;
+  color: red;
+}
+h4 {
+  font-size: 17px;
+  font-family: Verdana, sans-serif;
+  font-weight: 800;
+  margin-top: 25px;
+}
